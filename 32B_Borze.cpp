@@ -3,15 +3,15 @@ using namespace std ;
 
 int main()
 {
-    cout << "Borze code = " ;
+   // cout << "Borze code = " ;
     string borze_code ;
     cin >> borze_code ;
-    cout << endl ;
+   // cout << endl ;
     
     int length = borze_code.length() ;
     int i = 0 ;
 
-    cout << "Decoded borze code = " ;
+   // cout << "Decoded borze code = " ;
     while (length != 0)
     {
         if(borze_code[i] == '.') 
